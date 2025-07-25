@@ -86,11 +86,4 @@ This project helps you understand:
 - Modular programming
 - Menu-driven CLI programs
 
----
 
-## ✅ No External Libraries Used
-Only Python's built-in modules are used. It's perfect for beginners!
-
----
-
-Enjoy building your Contact Book! 📖
