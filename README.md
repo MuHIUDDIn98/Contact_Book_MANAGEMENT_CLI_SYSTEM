@@ -66,9 +66,12 @@ contact_book_cli/
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/MuHIUDDIn98/Contact_Book_MANAGEMENT_CLI_SYSTEM.git](https://github.com/MuHIUDDIn98/Contact_Book_MANAGEMENT_CLI_SYSTEM.git)
-cd contact_book_cli
+git clone https://github.com/MuHIUDDIn98/Contact_Book_MANAGEMENT_CLI_SYSTEM.git
 
+```
+
+```bash
+cd contact_book_cli
 ```
 
 ### Create a Virtual Environment (Optional but Recommended)
