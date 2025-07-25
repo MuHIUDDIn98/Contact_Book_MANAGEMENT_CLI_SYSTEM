@@ -50,6 +50,8 @@ This is a simple **Command Line Interface (CLI)** Contact Book Management System
 ---
 
 ## File Structure
+
+```bash
 contact_book_cli/
 ├── main.py             # Main program file with CLI menu
 ├── contact.py          # Handles Contact class and validation
@@ -57,16 +59,14 @@ contact_book_cli/
 ├── file_handler.py     # Handles loading/saving from CSV
 ├── contacts.csv        # Stores all contact data
 └── README.md           # Project documentation
-
-
----
+```
 ---
 
 ##  How to Setup and Run This Project
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/your-username/contact_book_cli.git](https://github.com/your-username/contact_book_cli.git)
+git clone [https://github.com/MuHIUDDIn98/Contact_Book_MANAGEMENT_CLI_SYSTEM.git](https://github.com/MuHIUDDIn98/Contact_Book_MANAGEMENT_CLI_SYSTEM.git)
 cd contact_book_cli
 
 ```
