@@ -4,7 +4,7 @@ This is a simple **Command Line Interface (CLI)** Contact Book Management System
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### 1. Add Contact
 - Input Name, Phone Number, Email, and Address.
@@ -31,14 +31,14 @@ This is a simple **Command Line Interface (CLI)** Contact Book Management System
 
 ---
 
-## 💾 Data Handling
+##  Data Handling
 
 - All contacts are stored in `contacts.csv`
 - Data is automatically loaded when the program starts and saved when updated.
 
 ---
 
-## 🧠 Input Validations
+##  Input Validations
 
 | Field     | Validation Rules                               |
 |-----------|------------------------------------------------|
@@ -49,7 +49,7 @@ This is a simple **Command Line Interface (CLI)** Contact Book Management System
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 contact_book_cli/
@@ -63,7 +63,7 @@ contact_book_cli/
 
 ---
 
-## 🏃‍♂️ How to Run
+##  How to Run
 
 1. Make sure you have Python installed.
 2. Unzip the project folder.
@@ -77,7 +77,7 @@ python main.py
 
 ---
 
-## 📚 Learning Goals
+##  Learning Goals
 
 This project helps you understand:
 - File handling (`csv`)
