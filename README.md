@@ -4,7 +4,7 @@ This is a simple **Command Line Interface (CLI)** Contact Book Management System
 
 ---
 
-##  Features
+## 🔧 Features
 
 ### 1. Add Contact
 - Input Name, Phone Number, Email, and Address.
@@ -33,57 +33,67 @@ This is a simple **Command Line Interface (CLI)** Contact Book Management System
 
 ##  Data Handling
 
-- All contacts are stored in `contacts.csv`
+- All contacts are stored in `contacts.csv`.
 - Data is automatically loaded when the program starts and saved when updated.
 
 ---
 
 ##  Input Validations
 
-| Field     | Validation Rules                               |
-|-----------|------------------------------------------------|
-| Name      | Only alphabets and spaces, min 2 characters    |
-| Phone     | Starts with `+880`, followed by 11 digits      |
-| Email     | Must include `@` and a domain (e.g. `.com`)    |
-| Address   | Any text                                        |
+| Field   | Validation Rules                               |
+|---------|------------------------------------------------|
+| Name    | Only alphabets and spaces, min 2 characters    |
+| Phone   | Starts with `+880`, followed by 11 digits      |
+| Email   | Must include `@` and a domain (e.g. `.com`)    |
+| Address | Any text                                       |
 
 ---
 
 ## File Structure
-
-```
 contact_book_cli/
-├── main.py               # Main program file with CLI menu
-├── contact.py            # Handles Contact class and validation
-├── contact_manager.py    # Adds, searches, removes contacts
-├── file_handler.py       # Handles loading/saving from CSV
-├── contacts.csv          # Stores all contact data
-├── README.md             # Project documentation
-```
+├── main.py             # Main program file with CLI menu
+├── contact.py          # Handles Contact class and validation
+├── contact_manager.py  # Adds, searches, removes contacts
+├── file_handler.py     # Handles loading/saving from CSV
+├── contacts.csv        # Stores all contact data
+└── README.md           # Project documentation
+
 
 ---
+---
 
-##  How to Run
+##  How to Setup and Run This Project
 
-1. Make sure you have Python installed.
-2. Unzip the project folder.
-3. Open your terminal or command prompt.
-4. Navigate to the folder.
-5. Run:
+### Clone the Repository
+```bash
+git clone [https://github.com/your-username/contact_book_cli.git](https://github.com/your-username/contact_book_cli.git)
+cd contact_book_cli
+
+```
+
+### Create a Virtual Environment (Optional but Recommended)
+🧪 A virtual environment keeps your project dependencies isolated.
 
 ```bash
-python main.py
+
+python -m venv venv
+venv\Scripts\activate
 ```
 
----
+### installing dependencies
 
-##  Learning Goals
 
+### Learning Goals
 This project helps you understand:
-- File handling (`csv`)
-- Functions and classes
-- Input validation
-- Modular programming
-- Menu-driven CLI programs
+
+File handling with csv
+
+Input validation
+
+Functions and classes
+
+Modular programming
+
+Building menu-driven CLI programs in Python
 
 
